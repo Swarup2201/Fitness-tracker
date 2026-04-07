@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workout</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header><h1>🏋️ Workout Tracker</h1></header>
+
+<nav>
+   <a href="index.html" >Home</a>
+  <a href="workout.html">Workout</a>
+  <a href="diet.html" target="_blank">Diet</a>
+  <a href="progress.html" target="_blank">Progress</a>
+  <a href="calendar.html" target="_blank">Calendar</a>
+</nav>
+
+<main>
+
+<section>
+  <div class="card">
+    <input id="exercise" placeholder="Exercise">
+    <input id="reps" type="number" placeholder="Reps">
+    <button onclick="addWorkout()">Add</button>
+  </div>
+
+  <div class="card">
+    <h3>Your Workouts</h3>
+    <ul id="workoutList"></ul>
+  </div>
+</section>
+
+<aside>
+  <div class="card">
+    <h3>Tip</h3>
+    <p>Train consistently 💪</p>
+  </div>
+</aside>
+
+</main>
+
+<footer>FitTrack</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

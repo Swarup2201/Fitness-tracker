@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitTrack</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>
+  <h1>💪 FitTrack</h1>
+  <p>Your Fitness Dashboard</p>
+</header>
+
+<nav>
+  
+  <a href="index.html" >Home</a>
+  <a href="workout.html" target="_blank">Workout</a>
+  <a href="diet.html" target="_blank">Diet</a>
+  <a href="progress.html" target="_blank">Progress</a>
+  <a href="calendar.html" target="_blank">Calendar</a>
+
+</nav>
+
+<main>
+<section>
+    <div class="hero">
+  <h1>🏛️ FITTRACK</h1>
+  <p>Discipline • Strength • Consistency</p>
+  <button onclick="location.href='workout.html'">Start Training</button>
+</div>
+
+  <div class="card">
+    <h2>Summary</h2>
+    <p id="total"></p>
+    <p id="streak"></p>
+  </div>
+
+<div class="card">
+  <h3>🔥 Daily Mission</h3>
+  <p id="missionText"></p>
+</div>
+
+  <div class="card">
+    <h2>Progress</h2>
+    <canvas id="chart"></canvas>
+  </div>
+</section>
+
+<aside>
+    <div class="card">
+  <h3>Gladiator Code</h3>
+  <p>“What we do daily defines us.”</p>
+</div>
+  <div class="card">
+    <h3>Quick Actions</h3>
+    <p><a href="workout.html">Add Workout</a></p>
+    <p><a href="diet.html">Add Diet</a></p>
+  </div>
+</aside>
+
+</main>
+
+<footer>FitTrack © 2026</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
